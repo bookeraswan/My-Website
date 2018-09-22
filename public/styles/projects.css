@@ -1,0 +1,20 @@
+    body{
+        background: #0a4 linear-gradient(#ddf, #55f) no-repeat fixed center;
+        background-size: cover;
+    }
+    .project{
+        margin: 100px auto;
+        width: 400px;
+        color: #050;
+        font-size: 50px;
+    }
+    a{
+        display: block;
+        font-size: 50px;
+        color: #4a004a;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        opacity: 0.5;
+    }
