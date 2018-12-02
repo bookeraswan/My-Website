@@ -1,0 +1,28 @@
+    nav{
+        height: 75px;
+        background-color: #46a09f;
+    }
+
+    nav ul{
+        margin: 0;
+        list-style: none;
+    }
+
+    nav ul li{
+        float: left;
+        margin: 15px 30px;
+        font-size: 22px;
+        font-family: sans-serif;
+        border-bottom: 2px solid #0000;
+    }
+
+    nav ul li:hover{
+        border-bottom-color: #000;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 50px;
+        color: #000;
+    }

@@ -2,14 +2,29 @@
 <html>
     <head>
         <title>Booker Robinson</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images\favicon-me.ico"/>
         <link rel="stylesheet" href="./styles/landing.css">
+        <link rel="stylesheet" href="./styles/nav.css">
+        <link rel="stylesheet" href="./styles/loader.css">
     </head>
     <body>
+    <div id="loader-container">
+        <div></div>
+    </div>
+    <section id="container">
+        <% include partials/nav %>
+        <header>
+            <div id="image-me">
+                <img src="images/me.transparent.png">
+            </div>
+            <h1 id="booker">B</h1>
+            <h2><em>software designer and programer</em></h2>
+        </header>
         
-        <div id="me_img_container">
-            <img id="me_img" src="./images/me.JPG">
-        </div>
-        <h1>Booker Robinson</h1>
-        <!--<a href="/about">about</a>-->
+    </section>
+    
+    
+    <script src="js/name.js"></script>
+    <script src="js/loader.js"></script>
     </body>
 </html>

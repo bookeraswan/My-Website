@@ -1,20 +1,37 @@
     body{
+        margin: 0;
         background: #0a4 linear-gradient(#ddf, #55f) no-repeat fixed center;
         background-size: cover;
     }
     .project{
-        margin: 100px auto;
+        display: inline-block;
+        margin: 50px 100px;
         width: 400px;
-        color: #050;
-        font-size: 50px;
+    }
+    
+    .img-a{
+        padding: 0;
+        /*background-color: #050;*/
+    }
+    
+    .project p{
+        width: 100%;
+        height: 100%;
+        /*background-color: #ccc;*/
+    }
+    
+    
+    
+    .project-image{
+        width: 100%;
     }
     a{
         display: block;
-        font-size: 50px;
+        /*font-size: 50px;*/
         color: #4a004a;
         text-decoration: none;
     }
     
-    a:hover{
+    .project-image:hover{
         opacity: 0.5;
     }

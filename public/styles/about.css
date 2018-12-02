@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  background: #0a4 linear-gradient(#ddf, #55f) no-repeat fixed center;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+}
+
+.container{
+  margin: 50px auto;
+  width: 900px;
+}

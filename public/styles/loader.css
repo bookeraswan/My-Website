@@ -1,0 +1,21 @@
+#loader-container div{
+    position: absolute;
+    top: 40vh;
+    left: 45vw;
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    border: 10px solid #46a09f;
+    /*border-bottom-color: #00f;*/
+    border-left-color: #555;
+    border-right-color: #555;
+    border-radius: 50%;
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
