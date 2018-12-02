@@ -1,7 +1,6 @@
 body{
   margin: 0;
-  background: #0a4 linear-gradient(#ddf, #55f) no-repeat fixed center;
-  background-size: cover;
+  background-color: #66b4ff;
 }
 
 h1{
