@@ -34,8 +34,8 @@ app.get("/chocolate", function(req, res){
 });
 
 //     process.env.PORT
-//          ||
-//          \/
-app.listen(process.env.PORT, process.env.IP,function(){
+//          ||  process.env.IP,
+//          \/  //
+app.listen(8000,function(){
    console.log("MY WEBSITE Server has started");
 });
