@@ -37,6 +37,6 @@ app.get("/chocolate", function(req, res){
     res.render("chocolate");
 });
 
-app.listen(8000,function(){
+app.listen(process.env.PORT, process.env.IP, function(){
    console.log("MY WEBSITE Server has started");
 });
