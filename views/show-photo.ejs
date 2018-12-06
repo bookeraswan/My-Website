@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= image %></title>
+    <link rel="stylesheet" href="../styles/nav.css">
+  </head>
+  <body>
+    <% include partials/nav %>
+    <style media="screen">
+      body{
+        margin: 0;
+        background-color: #66b4ff;
+      }
+      img{
+        display: block;
+        margin: 0 auto;
+        width: 90vw;
+      }
+    </style>
+    <img src="../images/photos/<%= image %>" alt="">
+  </body>
+</html>

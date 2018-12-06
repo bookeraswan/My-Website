@@ -25,6 +25,10 @@ app.get("/photos", function(req, res){
     res.render("photos");
 });
 
+app.get("/photos/:image", function(req, res) {
+    res.render("show-photo", {image: req.params.image});
+});
+
 app.get("/about", function(req, res){
     res.render("about");
 });
@@ -33,9 +37,6 @@ app.get("/chocolate", function(req, res){
     res.render("chocolate");
 });
 
-//     process.env.PORT
-//          ||  process.env.IP,
-//          \/  //
 app.listen(8000,function(){
    console.log("MY WEBSITE Server has started");
 });
