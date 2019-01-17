@@ -35,5 +35,4 @@ app.get("/about", function(req, res){
 
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("MY WEBSITE Server has started");
-   console.log(process.env.PORT);
 });
