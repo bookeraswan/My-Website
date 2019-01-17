@@ -1,0 +1,27 @@
+body{
+
+}
+
+h1{
+  margin-left: 200px;
+  width: 500px;
+}
+
+.Address{
+  float: right;
+  padding-left: 20PX;
+  width: 400px;
+  background-color: #ffd;
+}
+
+.Skills{
+  margin: 50px auto auto 100px;
+  padding: 20px;
+  width: 700px;
+  border: 1px solid #002;
+}
+
+.Skills li{
+  margin: 10px;
+  font-size: 20px;
+}

@@ -33,8 +33,8 @@ app.get("/about", function(req, res){
     res.render("about");
 });
 
-app.get("/chocolate", function(req, res){
-    res.render("chocolate");
+app.get("/resume", function(req, res){
+    res.render("resume");
 });
 
 app.listen(8000,function(){

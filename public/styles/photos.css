@@ -1,13 +1,16 @@
 body{
   margin: 0;
-  background-color: #66b4ff;
+  background-color: #ddd;
 }
 h1{
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  font-size: 60px;
 }
 
 section{
-  margin: 0 auto;
+  margin: 0 auto 120px auto;
   width: 90vw;
 }
 
@@ -20,6 +23,16 @@ section{
 
 .image img{
   width: 100%;
+}
+
+#next{
+  float: right;
+  margin: 20px 100px;
+  padding: 20px 30px;
+  font-size: 30px;
+  background-color: #f80;
+  border: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {

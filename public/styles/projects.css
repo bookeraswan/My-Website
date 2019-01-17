@@ -1,6 +1,6 @@
     body{
         margin: 0;
-        background-color: #66b4ff;
+        background-color: #ddd;
     }
 
     section{
@@ -10,8 +10,8 @@
 
     .project{
         display: inline-block;
-        margin: 50px 5px;
-        width: 48%;
+        margin: 50px 40px;
+        width: 40%;
     }
 
     .img-a{
@@ -29,7 +29,8 @@
     .project-image{
         width: 100%;
     }
-    a{
+
+    .project a{
         display: block;
         /*font-size: 50px;*/
         color: #4a004a;
@@ -40,8 +41,10 @@
         opacity: 0.5;
     }
 
-@media (max-width: 1000px) {
-  .project{
-    width: 100%;
+  @media (max-width: 1000px) {
+    .project{
+      margin: 0 auto;
+      width: 100%;
+    }
   }
-}
+  

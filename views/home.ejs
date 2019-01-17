@@ -2,27 +2,43 @@
 <html>
     <head>
         <title>Booker Robinson</title>
-        <link rel="shortcut icon" type="image/x-icon" href="images\favicon-me.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="images\code-b.ico"/>
         <link rel="stylesheet" href="./styles/landing.css">
         <link rel="stylesheet" href="./styles/nav.css">
         <link rel="stylesheet" href="./styles/loader.css">
+        <link rel="stylesheet" href="./styles/footer.css">
     </head>
     <body>
-    <div id="loader-container">
+    <!-- <div id="loader-container">
         <div></div>
-    </div>
-    <section id="container">
-        <% include partials/nav %>
+    </div> -->
         <header>
-            <div id="image-me">
-                <img src="images/me.transparent.png">
+            <div id="outerbackground">
+                <div id="background"></div>
             </div>
             <h1 id="booker">B</h1>
-            <h2><em>software designer and programer</em></h2>
+            <h2><em>software designer and developer</em></h2>
         </header>
-        
+    <section>
+        <a class="page" href="/projects">
+            <img src="/images/code.png" alt="">
+            <p>Porfolio</p>
+        </a>
+        <a class="page" href="/photos">
+                <img src="/images/beach_background.jpg" alt="">
+                <p>Photos</p>
+        </a>
+        <a class="page" href="/resume">
+            <img src="/images/sunset.jpg" alt="">
+            <p>Skills</p>
+        </a>
+        <a class="page" href="/about">
+            <img src="/images/me.png" alt="">
+            <p>About me</p>
+        </a>
     </section>
-    
+
+    <% include partials/footer %>
     
     <script src="js/name.js"></script>
     <script src="js/loader.js"></script>
