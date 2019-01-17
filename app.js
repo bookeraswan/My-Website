@@ -37,6 +37,6 @@ app.get("/resume", function(req, res){
     res.render("resume");
 });
 
-app.listen(8000,function(){
+app.listen(process.env.PORT, process.env.IP,function(){
    console.log("MY WEBSITE Server has started");
 });
