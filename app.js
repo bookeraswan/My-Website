@@ -17,10 +17,6 @@ app.get("/projects/to-do", function(req, res){
     res.render("apps/To-Do-List-App/to-do");
 });
 
-app.get("/projects/circlegame", function(req, res){
-    res.render("apps/CircleGame/CircleGame");
-});
-
 app.get("/photos", function(req, res){
     res.render("photos");
 });
@@ -31,6 +27,10 @@ app.get("/photos/:image", function(req, res) {
 
 app.get("/about", function(req, res){
     res.render("about");
+});
+
+app.get("/resume", function(req, res){
+    res.render("resume");
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
